@@ -66,6 +66,17 @@ public class Lesson3 {
             }
 
         }
+        System.out.println();
+        System.out.println("////////////////////////////////////////////////////////////////////////////////");
+        System.out.println("Additional task");
+        //////erkvoryakneri xndir, gtnum enq en tivy vory zuyg chuni, XOR-ov
+        int[] ar = {46, 4, 7, 46, 7};
+        int g = 0;
+        for (int i = 0; i < ar.length; i++) {
+            g = g ^ ar[i];
+        }
+        System.out.println(g);
+
 
     }
 }
