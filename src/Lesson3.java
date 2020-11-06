@@ -14,7 +14,7 @@ public class Lesson3 {
         System.out.println("Task2: Create an array and fill it with numbers from 1:1000");
         int[] array2 = new int[1000];
         for (int i = 1; i <= array2.length; i++) {
-            System.out.print(array2[i] + " ");
+            System.out.print(i + " ");
         }
 
         System.out.println();
@@ -22,7 +22,7 @@ public class Lesson3 {
         System.out.println("Task3: Create an array and fill it with odd numbers from -20:20");
         int[] array3 = new int[40];
         for (int i = -19; i <= array3.length; i += 2) {
-            System.out.print(array3[i] + " ");
+            System.out.print(i + " ");
         }
 
         System.out.println();
